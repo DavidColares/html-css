@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                    <title>Links</title>
+                    <style>
+                                        body {
+                                                            font-family: Arial, Helvetica, sans-serif;
+                                        }
+                                        a {
+                                                            color: red;
+                                                            text-decoration: none;
+                                        }
+
+                                        a:visited {
+                                                            color: red ;
+                                        }
+                                        a:hover {
+                                                            color: black;
+                                                            text-decoration: underline;
+                                        }
+                                        .especial {
+                                                            background-color: rgb(201, 111, 111);
+                                                            color: white;
+                                        }
+                                        a:active {
+                                                            color: aqua;
+                                        }
+                                        .especial::before {
+                                                            content:'☜';
+                                        }
+                                        .especial::after {
+                                                            content:'☞';
+                                        }
+                                        
+
+                                        
+                    </style>
+</head>
+<body>
+            <h1>Personalizando links</h1> 
+            <ul>
+                    <li><a href="https://github.com/gustavoguanabara">Repositório Github</a></li>
+                    <li><a href="http://youtube.com/@tvguanabarainfo" class="especial">Canal do Youtube</a></li>
+                    <li><a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/">Site do Curso em Vídeo</a></li>
+            </ul>       
+</body>
+</html>
