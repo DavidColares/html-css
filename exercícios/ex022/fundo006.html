@@ -7,28 +7,42 @@
                     <style>
                                         body {
                                                             height: 100vh;
-                                                            background-color: black;
+                                                           /* background-color: black;
                                                             background-image: url(imagens/wallpaper002.jpg);
-                                                            background-position:  center top;
+                                                            background-position:  center center;
                                                             background-repeat: no-repeat;
+                                                            background-size: cover;
+                                                            background-attachment: fixed;*/
+
+                                                            /* shorthand - background 
+                                                            color > image > position > repeat > [size] > attachment */
+                                                            
+                                                            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
                                                             background-size: cover;
                                         }
                                         main {
-                                                            background-color: white;
+                                                            background-color: rgb(163, 205, 210);
                                                             font-family:Verdana, Geneva, Tahoma, sans-serif;
-                                                            width: 400px;
+                                                            max-width: 400px;
                                                             padding: 10px;
                                                             margin: auto;
                                                             border: 1px solid darkblue;
-                                                            border-radius: 15px;
+                                                            border-radius: 10px;
                                                             text-align: justify;
+                                        }
+                                        main h1 {
+                                                             text-shadow: 1px 1px rgba(0, 0, 0, 0.427);
+                                                             color: rgb(44, 76, 182);
+                                        }
+                                        main span {
+                                                            
                                         }
                     </style>
 </head>
 <body>
                     <main>
                                         <h1>Teste de Imagem de Fundo</h1>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia ipsam eos autem accusantium, tempora eaque cupiditate sunt nam dolor molestias vero maxime, dolorem, quis aspernatur quam tenetur libero ut fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi quisquam sunt saepe veritatis, voluptates quam cumque, officia voluptate debitis dignissimos dolores non suscipit. Quia neque in dolor quaerat voluptatibus.</p>
+                                        <p>Lorem ipsum dolor sit amet <abbr title="Teste"><strong>consectetur</strong></abbr> adipisicing elit. Mollitia ipsam eos autem accusantium, tempora eaque cupiditate sunt nam dolor molestias vero maxime, dolorem, quis aspernatur quam tenetur libero ut fuga! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis, excepturi quisquam sunt saepe veritatis, voluptates quam cumque, officia voluptate debitis dignissimos dolores non suscipit. Quia <a href="#" target="_self">neque</a> in dolor quaerat voluptatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo eius iusto provident similique. Dolores ducimus natus quod, harum, cumque beatae illum cupiditate maiores quam praesentium fuga. Quam fuga atque aspernatur! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, corporis numquam animi maiores cumque accusantium placeat deserunt optio commodi libero ut, fugiat facere ducimus, voluptatem nesciunt eaque quos eius earum. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem esse eligendi nulla sit voluptate ex qui amet minus non totam culpa perferendis quis, incidunt voluptas, eum iste nostrum ipsa magni?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae veniam nesciunt laudantium? Sunt, obcaecati doloremque praesentium distinctio animi aperiam aliquid rerum totam sed molestiae iusto exercitationem voluptate deserunt ea ipsa! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi, dolore! Cum amet sed fugiat ratione laudantium recusandae nesciunt voluptate necessitatibus nam repellat reiciendis ad, perferendis facilis, optio dolorem assumenda consequuntur! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, fuga minima accusantium possimus corrupti beatae tempore nam dolor labore, deserunt explicabo qui voluptatum iste laudantium ducimus. Modi quaerat consectetur corporis!</p>
                     </main>
                     
 </body>
